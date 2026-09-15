@@ -119,7 +119,7 @@ A total of 16 million different colors can be represented this way.
 .. image:: AdditiveColorMixing.png
    :scale: 50 %
 
-Let's define the base colors as tuples of the tree base values.
+Let's define the base colors as tuples of the three base values.
 Since colors are constants, we will write them using capitals.
 The absence of all colors results in black.
 The maximum value for all three components results in white.
@@ -129,7 +129,7 @@ Three identical intermediate values result in gray::
     GRAY = (127, 127, 127)
     WHITE = (255, 255, 255)
 
-The tree base colors are defined as::
+The three base colors are defined as::
 
     RED = (255, 0, 0)
     GREEN = (0, 255, 0)
